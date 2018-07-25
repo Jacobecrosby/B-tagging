@@ -1,0 +1,51 @@
+
+Processing smtsim.C+...
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 SF_frac_l    1.00000e+00  1.00000e-01     no limits
+     2 SF_frac_c    1.00000e+00  1.00000e-01     no limits
+     3 SF_frac_b    1.00000e+00  1.00000e-01     no limits
+     4 SFl_bin_0    1.00000e+00  1.00000e-01     no limits
+     5 SFl_bin_1    1.00000e+00  1.00000e-01     no limits
+ **********
+ **    1 **MIGRAD
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-04
+ FCN=-873482 FROM MIGRAD    STATUS=INITIATE       22 CALLS          23 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  SF_frac_l    1.00000e+00   1.00000e-01   1.00000e-01  -2.48658e+01
+   2  SF_frac_c    1.00000e+00   1.00000e-01   1.00000e-01   1.02352e+01
+   3  SF_frac_b    1.00000e+00   1.00000e-01   1.00000e-01  -1.75137e+01
+   4  SFl_bin_0    1.00000e+00   1.00000e-01   1.00000e-01  -2.30457e+00
+   5  SFl_bin_1    1.00000e+00   1.00000e-01   1.00000e-01   1.62324e+01
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-873487 FROM MIGRAD    STATUS=CONVERGED     172 CALLS         173 TOTAL
+                     EDM=2.6865e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  SF_frac_l    1.13503e+00   1.29771e-01   1.96614e-02   9.91679e-03
+   2  SF_frac_c    1.09350e+00   2.60101e-01   2.11208e-02  -1.36384e-02
+   3  SF_frac_b    9.77186e-01   3.68877e-02   2.42328e-03  -3.18339e-02
+   4  SFl_bin_0    1.07965e+00   4.04112e-01   1.50524e-01  -2.29935e-03
+   5  SFl_bin_1    5.91838e-01   2.61433e-01   9.04621e-02   9.53767e-04
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  5    ERR DEF=1
+  1.684e-02  1.581e-02 -3.618e-03 -1.111e-02  1.075e-03 
+  1.581e-02  6.765e-02 -8.793e-03 -5.834e-02 -3.537e-02 
+ -3.618e-03 -8.793e-03  1.361e-03  6.939e-03  3.133e-03 
+ -1.111e-02 -5.834e-02  6.939e-03  1.633e-01  3.611e-02 
+  1.075e-03 -3.537e-02  3.133e-03  3.611e-02  6.835e-02 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5
+        1  0.94328   1.000  0.468 -0.756 -0.212  0.032
+        2  0.98404   0.468  1.000 -0.916 -0.555 -0.520
+        3  0.98958  -0.756 -0.916  1.000  0.465  0.325
+        4  0.57770  -0.212 -0.555  0.465  1.000  0.342
+        5  0.65195   0.032 -0.520  0.325  0.342  1.000
+0: 1.13503
+1: 1.0935
+2: 0.977186
